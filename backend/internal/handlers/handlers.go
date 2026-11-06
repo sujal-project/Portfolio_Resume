@@ -59,7 +59,7 @@ func (a *API) Contact(c *gin.Context) {
 var projects = []models.Project{
 	{
 		ID:        "nexhireai",
-		Title:     "NexHireAI — AI-Driven SaaS Hiring Platform",
+		Title:     "NexHireAI — AI-Driven SaaS Hiring Platform for me",
 		TitleJa:   "NexHireAI — AI駆動のSaaS採用プラットフォーム",
 		Period:    "April 2026 – May 2026",
 		Summary:   "Parses messy, unformatted resume PDFs to pull out structured skill data and score candidates against a job posting.",
