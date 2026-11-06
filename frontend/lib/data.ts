@@ -123,6 +123,6 @@ export const fallbackSkills: SkillGroup[] = [
   {
     category: "Languages Spoken",
     category_ja: "話せる言語",
-    items: ["English (Professional)", "Hindi (Native)", "Marathi (Native)", "Japanese (Beginner)"],
+    items: ["English (Professional)", "Hindi (Native)", "Marathi (Native)"],
   },
 ];
