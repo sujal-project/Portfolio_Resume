@@ -12,7 +12,7 @@ const dictionaries = {
     nav_projects: "Projects",
     nav_skills: "Skills",
     nav_contact: "Contact",
-    hero_role: "Software Engineer",
+    hero_role: "AI & Software Engineer",
     hero_location: "Rasayani, Maharashtra, India — open to relocating to Tokyo, Japan",
     summary_title: "Professional Summary",
     summary_body:
