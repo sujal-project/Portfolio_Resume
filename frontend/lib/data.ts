@@ -24,7 +24,7 @@ export interface SkillGroup {
 export const fallbackProjects: Project[] = [
   {
     id: "nexhireai",
-    title: "NexHireAI — AI-Driven SaaS Hiring Platform",
+    title: "NexHireAI — AI-Driven SaaS Hiring",
     title_ja: "NexHireAI — AI駆動型SaaS採用プラットフォーム",
     period: "April 2026 – May 2026",
     summary:
