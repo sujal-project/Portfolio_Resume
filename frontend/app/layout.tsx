@@ -10,7 +10,7 @@ const sans = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: "Sujal Gaikwad — Software Engineer",
+  title: "Sujal Gaikwad — AI & Software Engineer",
   description:
     "Portfolio and CV of Sujal Gaikwad, a BSc IT graduate building full-stack, AI-integrated applications, targeting a Software Engineer role in Tokyo, Japan.",
 };
