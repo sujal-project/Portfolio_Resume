@@ -130,5 +130,5 @@ var skills = []models.SkillGroup{
 	{Category: "Cloud & DevOps", CategoryJa: "クラウド・DevOps", Items: []string{"AWS (EC2/S3)", "Docker", "Redis", "CI/CD (GitHub Actions)"}},
 	{Category: "AI/ML & NLP", CategoryJa: "AI・機械学習・NLP", Items: []string{"scikit-learn", "spaCy", "Pandas", "NumPy", "PyPDF2"}},
 	{Category: "Generative AI Tools", CategoryJa: "生成AIツール", Items: []string{"Claude Code", "ChatGPT", "Gemini"}},
-	{Category: "Languages Spoken", CategoryJa: "話せる言語", Items: []string{"English (Professional)", "Hindi (Native)", "Marathi (Native)", "Japanese (Beginner)"}},
+	{Category: "Languages Spoken", CategoryJa: "話せる言語", Items: []string{"English (Professional)", "Hindi (Native)", "Marathi (Native)"}},
 }
