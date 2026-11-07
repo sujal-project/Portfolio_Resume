@@ -6,7 +6,7 @@ export type Lang = "en" | "ja";
 
 const dictionaries = {
   en: {
-    nav_about: "Summary",
+    nav_about: "About",
     nav_philosophy: "Philosophy",
     nav_education: "Education",
     nav_projects: "Projects",
@@ -14,7 +14,7 @@ const dictionaries = {
     nav_contact: "Contact",
     hero_role: "AI & Software Engineer",
     hero_location: "Rasayani, Maharashtra, India — open to relocating to Tokyo, Japan",
-    summary_title: "Professional Summary",
+    summary_title: "About Me",
     summary_body:
       "BSc IT graduate who builds full-stack, AI-integrated applications end to end — from a Flask hiring platform with a machine-learning matching engine to a Spring Boot system that replaced a manual academic workflow. Looking to bring that same hands-on approach to a Software Engineer role in Japan; actively studying Japanese to support the move.",
     philosophy_title: "Philosophy",
