@@ -22,6 +22,31 @@ export interface SkillGroup {
 // with backend/internal/handlers/handlers.go.
 
 export const fallbackProjects: Project[] = [
+
+    {
+    id: "jarvis",
+    title: "Jarvis — AI-Driven SaaS Hiring Platform",
+    title_ja: "NexHireAI — AI駆動型SaaS採用プラットフォーム",
+    period: "April 2026 – May 2026",
+    summary:
+      "Parses messy, unformatted resume PDFs to pull out structured skill data — turning a manual screening job that used to take days into something that runs in minutes.",
+    summary_ja:
+      "整形されていない履歴書PDFを解析し、構造化されたスキルデータを抽出。以前は数日かかっていた手作業の書類選考を数分で終わらせます。",
+    stack: ["Python", "Flask", "SQL Server", "scikit-learn", "spaCy", "Pandas"],
+    repo_url: "https://github.com/sujal-project/NexHireAI",
+    highlights: [
+      "Five layers — UI, Flask routes, the AI/matching engine, a pyodbc data-access layer, and SQL Server itself — so the resume-parsing logic isn't tangled up with the web code",
+      "Matching logic built with scikit-learn and Pandas scores each candidate against a job posting on a 0-100% scale, improving match quality 35% over doing it manually",
+      "Flask-Login accounts for recruiters and applicants, plus a Chart.js dashboard so recruiters see hiring metrics instead of digging through a spreadsheet",
+    ],
+    highlights_ja: [
+      "UI・Flaskルーティング・AI/マッチングエンジン・pyodbcデータアクセス層・SQL Server本体の5層構成にし、履歴書解析ロジックとWebコードを分離",
+      "scikit-learnとPandasによるマッチングロジックが候補者を求人に対し0〜100%でスコアリングし、手作業比でマッチ精度を35%向上",
+      "採用担当者・応募者向けのFlask-Loginアカウントと、スプレッドシートを見なくて済むChart.js製採用指標ダッシュボード",
+    ],
+  },
+
+
   {
     id: "nexhireai",
     title: "NexHireAI — AI-Driven SaaS Hiring Platform",

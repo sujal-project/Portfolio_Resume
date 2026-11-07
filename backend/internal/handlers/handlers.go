@@ -57,6 +57,33 @@ func (a *API) Contact(c *gin.Context) {
 // needs to change often.
 
 var projects = []models.Project{
+
+		{
+		ID:        "jarvis",
+		Title:     "Jarvis — AI-Driven SaaS Hiring Platform",
+		TitleJa:   "NexHireAI — AI駆動のSaaS採用プラットフォーム",
+		Period:    "April 2026 – May 2026",
+		Summary:   "Parses messy, unformatted resume PDFs to pull out structured skill data and score candidates against a job posting.",
+		SummaryJa: "書式の整っていない履歴書PDFを解析して構造化されたスキルデータを抽出し、求人に対して候補者をスコアリングする。",
+		Stack:     []string{"Python", "Flask", "MS SQL Server", "scikit-learn", "spaCy", "Pandas"},
+		RepoURL:   "https://github.com/sujal-project/NexHireAI",
+		Highlights: []string{
+			"Parsed messy, unformatted resume PDFs with spaCy and PyPDF2 to pull out structured skill data — turned a manual screening job that used to take days into something that runs in minutes",
+			"Split the app into five layers (UI, Flask routes, the AI/matching engine, a pyodbc data-access layer, and SQL Server itself) so the resume-parsing logic wasn't tangled up with the web code",
+			"Built the matching logic with scikit-learn and Pandas — scores each candidate against a job posting on a 0-100% scale, and got match quality up 35% over doing it manually",
+			"Added Flask-Login for recruiter/applicant accounts and a Chart.js dashboard so recruiters can see hiring metrics instead of digging through a spreadsheet",
+		},
+		HighlightsJ: []string{
+			"spaCyとPyPDF2で書式の乱れた履歴書PDFを解析し構造化データを抽出。数日かかっていた選考作業を数分で完了できるようにした",
+			"UI・Flaskルーティング・AI/マッチングエンジン・pyodbcデータアクセス層・SQL Serverの5層に分割し、履歴書解析ロジックとWebコードを分離",
+			"scikit-learnとPandasでマッチングロジックを構築。候補者を求人に対し0〜100%でスコアリングし、手動選考に比べマッチ精度を35%向上",
+			"採用担当者・応募者向けにFlask-Loginでアカウント管理を実装し、Chart.jsダッシュボードで採用指標を可視化",
+		},
+	},
+
+
+
+
 	{
 		ID:        "nexhireai",
 		Title:     "NexHireAI — AI-Driven SaaS Hiring Platform",
