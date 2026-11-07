@@ -133,7 +133,7 @@ var projects = []models.Project{
 		Period:    "September 2026",
 		Summary:   "This site itself: a Next.js + Go REST API portfolio, containerized and running on free-tier infrastructure.",
 		SummaryJa: "本サイト自体：Next.jsとGo製REST APIによるポートフォリオ。Docker化し無料枠のインフラで稼働。",
-		Stack:     []string{"TypeScript", "Next.js", "Tailwind CSS", "Go", "Gin", "PostgreSQL", "Docker"},
+		Stack:     []string{"TypeScript", "Next.js", "Tailwind CSS", "Go", "Gin", "PostgreSQL", "Docker","Vercel(frontend)","Render(backend)","neon-PostgreeSQL(database)"},
 		RepoURL:   "https://github.com/sujal-project/Portfolio_Resume.git",
 		Highlights: []string{
 			"Next.js/TypeScript frontend with an English/Japanese language toggle",
