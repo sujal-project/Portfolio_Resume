@@ -99,7 +99,7 @@ export const fallbackProjects: Project[] = [
     summary:
       "This site itself: a Next.js + Go REST API portfolio, containerized and running on free-tier infrastructure.",
     summary_ja: "本サイト自体：Next.jsとGo製REST APIによるポートフォリオ。Docker化し無料枠のインフラで稼働。",
-    stack: ["TypeScript", "Next.js", "Tailwind CSS", "Go", "Gin", "PostgreSQL", "Docker","Vercel(frontend)","Render(backend)","neon-PostgreeSQL(database)"],
+    stack: ["TypeScript", "Next.js", "Tailwind CSS", "Go", "Gin", "PostgreSQL", "Docker","Vercel(frontend)","Render(backend)","neon(database)"],
     repo_url: "https://github.com/sujal-project/Portfolio_Resume.git",
     highlights: [
       "Next.js/TypeScript frontend with an English/Japanese language toggle",
