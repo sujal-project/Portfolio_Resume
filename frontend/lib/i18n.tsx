@@ -16,7 +16,7 @@ const dictionaries = {
     hero_location: "Rasayani, Maharashtra, India — open to relocating to Tokyo, Japan",
     summary_title: "About Me",
     summary_body:
-      "BSc IT graduate who builds full-stack, AI-integrated applications end to end — from a Flask hiring platform with a machine-learning matching engine to a Spring Boot system that replaced a manual academic workflow. Looking to bring that same hands-on approach to a Software Engineer role in Japan; actively studying Japanese to support the move.",
+      "BSc IT graduate who builds AI-integrated applications end to end — an LLM-powered voice assistant that controls a laptop, phone and smart home, a Flask hiring platform with a machine-learning matching engine, and a Spring Boot system that replaced a manual academic workflow. Works with Python, PyTorch, Java, TypeScript, LLM APIs and AWS. Looking to bring that same hands-on approach to an AI Engineer role in Japan; actively studying Japanese to support the move.          BSc IT graduate who builds full-stack, AI-integrated applications end to end — from a Flask hiring platform with a machine-learning matching engine to a Spring Boot system that replaced a manual academic workflow. Looking to bring that same hands-on approach to a Software Engineer role in Japan; actively studying Japanese to support the move.",
     philosophy_title: "Philosophy",
     philosophy_1_lead: "Problem-first thinking:",
     philosophy_1_rest:
