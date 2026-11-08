@@ -8,7 +8,6 @@ const dictionaries = {
   en: {
     nav_about: "About",
     nav_philosophy: "Philosophy",
-    // nav_education: "Education",
     nav_projects: "Projects",
     nav_skills: "Skills",
     nav_education: "Education",
@@ -31,13 +30,6 @@ const dictionaries = {
     philosophy_4_lead: "Continuous learning:",
     philosophy_4_rest:
       "Learning Japanese and Go right now, because the stack you'll need next rarely matches the one you already know.",
-    // education_title: "Education",
-    // education_degree: "BSc in Information Technology",
-    // education_school: "Chhatrapati Shivaji Maharaj University, Panvel, Maharashtra, India",
-    // education_meta: "Graduated: July 2026 (degree certificate pending issuance) · CGPA: 7.70 / 10",
-    // education_coursework_label: "Relevant coursework",
-    // education_coursework:
-    //   "Data Structures & Algorithms, Object-Oriented Programming (OOP), Database Management Systems (DBMS), Software Engineering, System Architecture, Cloud Computing",
     projects_title: "Technical Projects",
     projects_view_repo: "View repository",
     skills_title: "Technical Skills",
@@ -60,7 +52,6 @@ const dictionaries = {
   ja: {
     nav_about: "概要",
     nav_philosophy: "哲学",
-    // nav_education: "学歴",
     nav_projects: "プロジェクト",
     nav_skills: "スキル",
     nav_education: "学歴",
@@ -83,13 +74,6 @@ const dictionaries = {
     philosophy_4_lead: "学び続ける：",
     philosophy_4_rest:
       "現在、日本語とGoを学習中。次に必要なスタックは、今持っているものと違うことが多いから。",
-    // education_title: "学歴",
-    // education_degree: "情報技術学 学士（BSc in Information Technology）",
-    // education_school: "Chhatrapati Shivaji Maharaj University（インド マハーラーシュトラ州 パンヴェル）",
-    // education_meta: "卒業：2026年7月（学位証明書は発行待ち） ・ CGPA：7.70 / 10",
-    // education_coursework_label: "関連科目",
-    // education_coursework:
-    //   "データ構造とアルゴリズム、オブジェクト指向プログラミング（OOP）、データベース管理システム（DBMS）、ソフトウェア工学、システムアーキテクチャ、クラウドコンピューティング",
     projects_title: "技術プロジェクト",
     projects_view_repo: "リポジトリを見る",
     skills_title: "技術スキル",
