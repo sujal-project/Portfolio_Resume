@@ -56,6 +56,21 @@ func (a *API) Contact(c *gin.Context) {
 // in code rather than requiring an admin panel. Move to the DB later if it
 // needs to change often.
 
+var skills = []models.SkillGroup{
+	{Category: "Programming Languages", CategoryJa: "プログラミング言語", Items: []string{"Python", "Java", "JavaScript", "TypeScript", "C / C++", "Go"}},
+	{Category: "Frameworks & Web", CategoryJa: "フレームワーク・Web", Items: []string{"Flask", "Flask-Login", "FastAPI", "Spring Boot", "Bootstrap", "HTML5", "CSS3", "Chart.js", "Next.js", "Tailwind CSS", "Gin"}},
+	{Category: "Databases & Tools", CategoryJa: "データベース・ツール", Items: []string{"Microsoft SQL Server", "MySQL", "SQLite3", "PostgreSQL", "Git", "GitHub", "Pyodbc"}},
+	{Category: "Cloud & DevOps", CategoryJa: "クラウド・DevOps", Items: []string{"AWS (EC2/S3)", "Docker", "Redis", "CI/CD (GitHub Actions)"}},
+	{Category: "AI/ML & NLP", CategoryJa: "AI・機械学習・NLP", Items: []string{"scikit-learn", "spaCy", "Pandas", "NumPy", "PyPDF2"}},
+	{Category: "Generative AI Tools", CategoryJa: "生成AIツール", Items: []string{"Claude Code", "ChatGPT", "Gemini"}},
+	{Category: "Languages Spoken", CategoryJa: "話せる言語", Items: []string{"English (Professional)", "Hindi (Native)", "Marathi (Native)"}},
+}
+
+
+
+
+
+
 var projects = []models.Project{
 
 	// 	{
@@ -148,12 +163,12 @@ var projects = []models.Project{
 	},
 }
 
-var skills = []models.SkillGroup{
-	{Category: "Programming Languages", CategoryJa: "プログラミング言語", Items: []string{"Python", "Java", "JavaScript", "TypeScript", "C / C++", "Go"}},
-	{Category: "Frameworks & Web", CategoryJa: "フレームワーク・Web", Items: []string{"Flask", "Flask-Login", "FastAPI", "Spring Boot", "Bootstrap", "HTML5", "CSS3", "Chart.js", "Next.js", "Tailwind CSS", "Gin"}},
-	{Category: "Databases & Tools", CategoryJa: "データベース・ツール", Items: []string{"Microsoft SQL Server", "MySQL", "SQLite3", "PostgreSQL", "Git", "GitHub", "Pyodbc"}},
-	{Category: "Cloud & DevOps", CategoryJa: "クラウド・DevOps", Items: []string{"AWS (EC2/S3)", "Docker", "Redis", "CI/CD (GitHub Actions)"}},
-	{Category: "AI/ML & NLP", CategoryJa: "AI・機械学習・NLP", Items: []string{"scikit-learn", "spaCy", "Pandas", "NumPy", "PyPDF2"}},
-	{Category: "Generative AI Tools", CategoryJa: "生成AIツール", Items: []string{"Claude Code", "ChatGPT", "Gemini"}},
-	{Category: "Languages Spoken", CategoryJa: "話せる言語", Items: []string{"English (Professional)", "Hindi (Native)", "Marathi (Native)"}},
-}
+// var skills = []models.SkillGroup{
+// 	{Category: "Programming Languages", CategoryJa: "プログラミング言語", Items: []string{"Python", "Java", "JavaScript", "TypeScript", "C / C++", "Go"}},
+// 	{Category: "Frameworks & Web", CategoryJa: "フレームワーク・Web", Items: []string{"Flask", "Flask-Login", "FastAPI", "Spring Boot", "Bootstrap", "HTML5", "CSS3", "Chart.js", "Next.js", "Tailwind CSS", "Gin"}},
+// 	{Category: "Databases & Tools", CategoryJa: "データベース・ツール", Items: []string{"Microsoft SQL Server", "MySQL", "SQLite3", "PostgreSQL", "Git", "GitHub", "Pyodbc"}},
+// 	{Category: "Cloud & DevOps", CategoryJa: "クラウド・DevOps", Items: []string{"AWS (EC2/S3)", "Docker", "Redis", "CI/CD (GitHub Actions)"}},
+// 	{Category: "AI/ML & NLP", CategoryJa: "AI・機械学習・NLP", Items: []string{"scikit-learn", "spaCy", "Pandas", "NumPy", "PyPDF2"}},
+// 	{Category: "Generative AI Tools", CategoryJa: "生成AIツール", Items: []string{"Claude Code", "ChatGPT", "Gemini"}},
+// 	{Category: "Languages Spoken", CategoryJa: "話せる言語", Items: []string{"English (Professional)", "Hindi (Native)", "Marathi (Native)"}},
+// }

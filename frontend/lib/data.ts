@@ -21,6 +21,49 @@ export interface SkillGroup {
 // unreachable, so the site never shows an empty page. Keep this in sync
 // with backend/internal/handlers/handlers.go.
 
+export const fallbackSkills: SkillGroup[] = [
+  {
+    category: "Programming Languages",
+    category_ja: "プログラミング言語",
+    items: ["Python", "Java", "JavaScript", "TypeScript", "C / C++", "Go"],
+  },
+  {
+    category: "Frameworks & Web",
+    category_ja: "フレームワーク・Web",
+    items: ["Flask", "Flask-Login", "FastAPI", "Spring Boot", "Bootstrap", "HTML5", "CSS3", "Chart.js", "Next.js", "Tailwind CSS", "Gin"],
+  },
+  {
+    category: "Databases & Tools",
+    category_ja: "データベース・ツール",
+    items: ["Microsoft SQL Server", "MySQL", "SQLite3", "PostgreSQL", "Git", "GitHub", "Pyodbc"],
+  },
+  {
+    category: "Cloud & DevOps",
+    category_ja: "クラウド・DevOps",
+    items: ["AWS (EC2/S3)", "Docker", "Redis", "CI/CD (GitHub Actions)"],
+  },
+  {
+    category: "AI/ML & NLP",
+    category_ja: "AI・機械学習・NLP",
+    items: ["scikit-learn", "spaCy", "Pandas", "NumPy", "PyPDF2"],
+  },
+  {
+    category: "Generative AI Tools",
+    category_ja: "生成AIツール",
+    items: ["Claude Code", "ChatGPT", "Gemini"],
+  },
+  {
+    category: "Languages Spoken",
+    category_ja: "話せる言語",
+    items: ["English (Professional)", "Hindi (Native)", "Marathi (Native)"],
+  },
+];
+
+
+
+
+
+
 export const fallbackProjects: Project[] = [
 
   //   {
@@ -114,40 +157,40 @@ export const fallbackProjects: Project[] = [
   },
 ];
 
-export const fallbackSkills: SkillGroup[] = [
-  {
-    category: "Programming Languages",
-    category_ja: "プログラミング言語",
-    items: ["Python", "Java", "JavaScript", "TypeScript", "C / C++", "Go"],
-  },
-  {
-    category: "Frameworks & Web",
-    category_ja: "フレームワーク・Web",
-    items: ["Flask", "Flask-Login", "FastAPI", "Spring Boot", "Bootstrap", "HTML5", "CSS3", "Chart.js", "Next.js", "Tailwind CSS", "Gin"],
-  },
-  {
-    category: "Databases & Tools",
-    category_ja: "データベース・ツール",
-    items: ["Microsoft SQL Server", "MySQL", "SQLite3", "PostgreSQL", "Git", "GitHub", "Pyodbc"],
-  },
-  {
-    category: "Cloud & DevOps",
-    category_ja: "クラウド・DevOps",
-    items: ["AWS (EC2/S3)", "Docker", "Redis", "CI/CD (GitHub Actions)"],
-  },
-  {
-    category: "AI/ML & NLP",
-    category_ja: "AI・機械学習・NLP",
-    items: ["scikit-learn", "spaCy", "Pandas", "NumPy", "PyPDF2"],
-  },
-  {
-    category: "Generative AI Tools",
-    category_ja: "生成AIツール",
-    items: ["Claude Code", "ChatGPT", "Gemini"],
-  },
-  {
-    category: "Languages Spoken",
-    category_ja: "話せる言語",
-    items: ["English (Professional)", "Hindi (Native)", "Marathi (Native)"],
-  },
-];
+// export const fallbackSkills: SkillGroup[] = [
+//   {
+//     category: "Programming Languages",
+//     category_ja: "プログラミング言語",
+//     items: ["Python", "Java", "JavaScript", "TypeScript", "C / C++", "Go"],
+//   },
+//   {
+//     category: "Frameworks & Web",
+//     category_ja: "フレームワーク・Web",
+//     items: ["Flask", "Flask-Login", "FastAPI", "Spring Boot", "Bootstrap", "HTML5", "CSS3", "Chart.js", "Next.js", "Tailwind CSS", "Gin"],
+//   },
+//   {
+//     category: "Databases & Tools",
+//     category_ja: "データベース・ツール",
+//     items: ["Microsoft SQL Server", "MySQL", "SQLite3", "PostgreSQL", "Git", "GitHub", "Pyodbc"],
+//   },
+//   {
+//     category: "Cloud & DevOps",
+//     category_ja: "クラウド・DevOps",
+//     items: ["AWS (EC2/S3)", "Docker", "Redis", "CI/CD (GitHub Actions)"],
+//   },
+//   {
+//     category: "AI/ML & NLP",
+//     category_ja: "AI・機械学習・NLP",
+//     items: ["scikit-learn", "spaCy", "Pandas", "NumPy", "PyPDF2"],
+//   },
+//   {
+//     category: "Generative AI Tools",
+//     category_ja: "生成AIツール",
+//     items: ["Claude Code", "ChatGPT", "Gemini"],
+//   },
+//   {
+//     category: "Languages Spoken",
+//     category_ja: "話せる言語",
+//     items: ["English (Professional)", "Hindi (Native)", "Marathi (Native)"],
+//   },
+// ];
