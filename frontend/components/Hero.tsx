@@ -8,15 +8,25 @@ export default function Hero() {
 
   return (
     <section id="top" className="mx-auto max-w-content px-6 pb-8 pt-8">
-      <div className="card flex flex-col items-center gap-4 px-8 py-10 text-center">
+
+      <div className="card flex flex-col items-center gap-4 px-8 py-10 text-center bg-gradient-to-br from-white via-sky-50 to-cyan-50 border-2 border-sky-200 rounded-3xl shadow-[0_8px_25px_rgba(14,165,233,0.10)]">
+
+        <div className="h-28 w-28 rounded-full bg-sky-100 p-2 shadow-[0_0_0_8px_rgba(14,165,233,0.10)]">
+          <img
+            src="/profile.jpg"
+            alt="Profile"
+            className="h-full w-full rounded-full border-4 border-white object-cover"
+          />
+        </div>
+      {/* <div className="card flex flex-col items-center gap-4 px-8 py-10 text-center">
+        
         <div className="gradient-bar flex h-28 w-28 items-center justify-center rounded-full text-2xl font-bold text-white shadow-md">
           <img
             src="/profile.jpg"
             alt="Profile"
             className="h-full w-full rounded-full object-cover"
           />
-          {/* SG */}
-        </div>
+        </div> */}
 
         <h1 className="gradient-text text-3xl font-bold sm:text-4xl">Sujal Gaikwad</h1>
         <p className="text-lg text-ink">{t("hero_role")}</p>
