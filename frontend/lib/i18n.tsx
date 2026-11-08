@@ -7,7 +7,7 @@ export type Lang = "en" | "ja";
 const dictionaries = {
   en: {
     nav_about: "About",
-    // nav_philosophy: "Philosophy",
+    nav_philosophy: "Philosophy",
     nav_projects: "Projects",
     nav_skills: "Skills",
     nav_education: "Education",
