@@ -7,7 +7,7 @@ export type Lang = "en" | "ja";
 const dictionaries = {
   en: {
     nav_about: "About",
-    nav_philosophy: "Philosophy",
+    // nav_philosophy: "Philosophy",
     nav_projects: "Projects",
     nav_skills: "Skills",
     nav_education: "Education",
@@ -51,14 +51,14 @@ const dictionaries = {
   },
   ja: {
     nav_about: "概要",
-    nav_philosophy: "哲学",
+    // nav_philosophy: "哲学",
     nav_projects: "プロジェクト",
     nav_skills: "スキル",
     nav_education: "学歴",
     nav_contact: "お問い合わせ",
     hero_role: "ソフトウェアエンジニア",
     hero_location: "インド マハーラーシュトラ州 ラサヤニ在住 — 東京への移住を希望",
-    summary_title: "概要",
+    summary_title: "自己紹介",
     summary_body:
       "情報技術学の学士号を持ち、フルスタックかつAIを組み込んだアプリケーションを一から構築してきました。機械学習のマッチングエンジンを備えたFlask製採用プラットフォームや、手作業の学務フローを置き換えたSpring Bootシステムなどです。同じ姿勢で日本のソフトウェアエンジニア職に貢献したいと考えており、移住に向けて日本語を学習中です。",
     philosophy_title: "哲学",

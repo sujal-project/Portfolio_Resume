@@ -18,7 +18,7 @@ export default async function Home() {
       <Nav />
       <Hero />
       <About />
-      <Philosophy />
+      {/* <Philosophy /> */}
       {/* <Education /> */}
       <SkillsGrid groups={skills} />
       <ProjectList projects={projects} />
