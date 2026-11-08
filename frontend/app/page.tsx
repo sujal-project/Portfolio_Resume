@@ -1,7 +1,7 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
-import Philosophy from "@/components/Philosophy";
+// import Philosophy from "@/components/Philosophy";
 import Education from "@/components/Education";
 import ProjectList from "@/components/ProjectList";
 import SkillsGrid from "@/components/SkillsGrid";
