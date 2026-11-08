@@ -16,10 +16,8 @@ export default function Nav() {
         <nav className="hidden gap-6 text-sm font-medium text-muted md:flex">
           <a href="#summary" className="hover:text-ink transition-colors">{t("nav_about")}</a>
           {/* <a href="#philosophy" className="hover:text-ink transition-colors">{t("nav_philosophy")}</a> */}
-          {/* <a href="#education" className="hover:text-ink transition-colors">{t("nav_education")}</a> */}
           <a href="#skills" className="hover:text-ink transition-colors">{t("nav_skills")}</a>
           <a href="#projects" className="hover:text-ink transition-colors">{t("nav_projects")}</a>
-          {/* <a href="#skills" className="hover:text-ink transition-colors">{t("nav_skills")}</a> */}
           <a href="#education" className="hover:text-ink transition-colors">{t("nav_education")}</a>
           <a href="#contact" className="hover:text-ink transition-colors">{t("nav_contact")}</a>
         </nav>

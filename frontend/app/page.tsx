@@ -19,10 +19,8 @@ export default async function Home() {
       <Hero />
       <About />
       {/* <Philosophy /> */}
-      {/* <Education /> */}
       <SkillsGrid groups={skills} />
       <ProjectList projects={projects} />
-      {/* <SkillsGrid groups={skills} /> */}
       <Education />
       <Certifications />
       <Contact />
