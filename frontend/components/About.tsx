@@ -27,9 +27,6 @@ export default function About() {
             </li>
           ))}
         </ul>
-
-
-
       </div>
     </Section>
   );
