@@ -10,12 +10,12 @@ export default function Hero() {
     <section id="top" className="mx-auto max-w-content px-6 pb-8 pt-8">
       <div className="card flex flex-col items-center gap-4 px-8 py-10 text-center">
         <div className="gradient-bar flex h-24 w-24 items-center justify-center rounded-full text-2xl font-bold text-white shadow-md">
-          {/* <img
+          <img
             src="/profile.jpg"
             alt="Profile"
             className="h-full w-full rounded-full object-cover"
-          /> */}
-          SG
+          />
+          {/* SG */}
         </div>
 
         <h1 className="gradient-text text-3xl font-bold sm:text-4xl">Sujal Gaikwad</h1>
