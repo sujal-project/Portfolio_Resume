@@ -51,7 +51,7 @@ const dictionaries = {
   },
   ja: {
     nav_about: "概要",
-    // nav_philosophy: "哲学",
+    nav_philosophy: "哲学",
     nav_projects: "プロジェクト",
     nav_skills: "スキル",
     nav_education: "学歴",
