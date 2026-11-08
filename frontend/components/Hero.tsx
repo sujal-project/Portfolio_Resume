@@ -11,7 +11,7 @@ export default function Hero() {
 
       <div className="card flex flex-col items-center gap-4 px-8 py-10 text-center bg-gradient-to-br from-white via-sky-50 to-cyan-50 border-2 border-sky-200 rounded-3xl shadow-[0_8px_25px_rgba(14,165,233,0.10)]">
 
-        <div className="h-28 w-28 rounded-full bg-sky-100 p-2 shadow-[0_0_0_8px_rgba(14,165,233,0.10)]">
+        <div className="h-28 w-28 rounded-full bg-sky-100 p-1.5 shadow-[0_0_0_5px_rgba(14,165,233,0.10)]">
           <img
             src="/profile.jpg"
             alt="Profile"
